@@ -76,9 +76,9 @@ export default function Home() {
             }`}
           >
             I am a Senior student at
-            <span className="text-orange-500">NYU Abu Dhabi</span>, majoring in
+            <span className="text-orange-500"> NYU Abu Dhabi</span>, majoring in
             Computer Science with an interest in
-            <span className="text-orange-500">web programming.</span>
+            <span className="text-orange-500"> web programming.</span>
           </div>
         </div>
         <div className=" flex flex-col items-center gap-4 md:mb-48 md:flex-row md:items-center md:gap-24">
