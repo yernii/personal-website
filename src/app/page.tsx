@@ -23,7 +23,6 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center gap-[300px]">
         <div className="md: mt-16 flex justify-center gap-[300px]">
           <div className="mt-48 hidden md:flex">
-            {" "}
             <div className="relative hidden md:flex md:h-72 md:w-96">
               <Image
                 width={500}
@@ -81,9 +80,9 @@ export default function Home() {
               inAboutView ? "opacity-1 blur-none	" : "opacity-1 	blur-sm	"
             }`}
           >
-            I am a Senior student at{" "}
+            I am a Senior student at
             <span className="text-orange-500">NYU Abu Dhabi</span>, majoring in
-            Computer Science with an interest in{" "}
+            Computer Science with an interest in
             <span className="text-orange-500">web programming.</span>
           </div>
         </div>
@@ -159,7 +158,6 @@ export default function Home() {
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>
-                  {" "}
                   <span>Project 1</span>
                 </div>
                 <div className="text-2xl md:text-5xl">
@@ -178,7 +176,6 @@ export default function Home() {
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>
-                  {" "}
                   <span>Project 2</span>
                 </div>
                 <div className="text-2xl md:text-5xl">
@@ -186,7 +183,6 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                {" "}
                 <Link href="https://yernii.github.io/">
                   <LinkIcon className="animate-pulse" />
                 </Link>
@@ -198,7 +194,6 @@ export default function Home() {
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>
-                  {" "}
                   <span>Project 3</span>
                 </div>
                 <div className="text-2xl md:text-5xl">
@@ -206,7 +201,6 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                {" "}
                 <Link href="">
                   <LinkIcon className="animate-pulse" />
                 </Link>
@@ -218,7 +212,6 @@ export default function Home() {
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>
-                  {" "}
                   <span>Project 4</span>
                 </div>
                 <div className="text-2xl md:text-5xl">
@@ -226,7 +219,6 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                {" "}
                 <Link href="https://github.com/cswpy/screen-helper">
                   <LinkIcon className="animate-pulse" />
                 </Link>
