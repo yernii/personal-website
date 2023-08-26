@@ -36,8 +36,8 @@ export default function Home() {
           <div
             className={`flex flex-col justify-center transition  duration-[1000ms]  md:mr-48  ${
               inMainView
-                ? "opacity-1 blur-none	"
-                : "translate-x-[100%] opacity-0	blur-sm	"
+                ? "opacity-1 blur-none"
+                : "translate-x-[100%] opacity-0	blur-sm"
             }`}
             ref={refMain}
           >
