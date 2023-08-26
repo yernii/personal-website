@@ -51,14 +51,14 @@ export default function Experience() {
             Software Engineer Intern at Integerly (MathForces) startup
           </h3>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Rebuilt the front-end for the main "Math Pages" with additional
-            features and mobile responsive design, resulting in UX improvements
-            of users&apos; workflow and improved maintainability (React.js,
-            TypeScript, Lerna.js). Accelerated development process for teammates
-            by 30% via building reusable React.js components for tab-bar, search
-            and filter functionalities. Integrated 10+ new API endpoints to the
-            assigned web pages enabling appropriate user authorization
-            privileges and error handling using React.js monorepo.
+            Rebuilt the front-end for the main &quot;Math Pages&quot; with
+            additional features and mobile responsive design, resulting in UX
+            improvements of users&apos; workflow and improved maintainability
+            (React.js, TypeScript, Lerna.js). Accelerated development process
+            for teammates by 30% via building reusable React.js components for
+            tab-bar, search and filter functionalities. Integrated 10+ new API
+            endpoints to the assigned web pages enabling appropriate user
+            authorization privileges and error handling using React.js monorepo.
           </p>
         </li>
       </ol>
