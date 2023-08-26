@@ -9,9 +9,6 @@ import Link from "next/link"
 import LinkIcon from "@mui/icons-material/Link"
 
 export default function Home() {
-  const [refMain, inMainView] = useInView({
-    threshold: 0.75,
-  })
   const [refAboutPage, inAboutView] = useInView({
     threshold: 0.75,
   })
@@ -33,14 +30,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div
-            className={`flex flex-col justify-center transition  duration-[1000ms]  md:mr-48  ${
-              inMainView
-                ? "opacity-1 blur-none"
-                : "translate-x-[100%] opacity-0	blur-sm"
-            }`}
-            ref={refMain}
-          >
+          <div className="flex flex-col justify-center md:mr-48">
             <div className=" md:text-9xl">
               Yernar <span className="block" /> Mukayev
             </div>
