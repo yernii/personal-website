@@ -162,9 +162,7 @@ export default function Home() {
             <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
-                <div>
-                  <span>Project 1</span>
-                </div>
+                <div>Project 1</div>
                 <div className="text-2xl md:text-5xl">
                   Automation of the measurement of crystal image dimensions
                 </div>
@@ -180,11 +178,9 @@ export default function Home() {
             <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
-                <div>
-                  <span>Project 2</span>
-                </div>
+                <div>Project 2</div>
                 <div className="text-2xl md:text-5xl">
-                  3-D Portfolio webisite
+                  3D Portfolio webisite
                 </div>
               </div>
               <div>
@@ -198,9 +194,7 @@ export default function Home() {
             <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
-                <div>
-                  <span>Project 3</span>
-                </div>
+                <div>Project 3</div>
                 <div className="text-2xl md:text-5xl">
                   Bet to keep daily habit alive
                 </div>
@@ -216,9 +210,7 @@ export default function Home() {
             <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
-                <div>
-                  <span>Project 4</span>
-                </div>
+                <div>Project 4</div>
                 <div className="text-2xl md:text-5xl">
                   App to avoid screen fatigue
                 </div>
