@@ -161,7 +161,7 @@ export default function Home() {
                   <span>Project 1</span>
                 </div>
                 <div className="text-2xl md:text-5xl">
-                  Automation of the measurement of crystals' images dimensions
+                  Automation of the measurement of crystal image dimensions
                 </div>
               </div>
               <div>
