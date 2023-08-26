@@ -49,13 +49,18 @@ export default function Home() {
               <Link
                 href="https://www.linkedin.com/in/yernar-mukayev/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <LinkedInIcon
                   fontSize="large"
                   sx={{ "& :hover": { color: "yellow" } }}
                 />
               </Link>
-              <Link href="https://github.com/yernii" target="_blank">
+              <Link
+                href="https://github.com/yernii"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <GitHubIcon
                   fontSize="large"
                   sx={{ "& :hover": { color: "yellow" } }}
