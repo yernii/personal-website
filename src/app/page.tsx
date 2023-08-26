@@ -41,8 +41,8 @@ export default function Home() {
             }`}
             ref={refMain}
           >
-            <div className="md:text-9xl">
-              Yernar <br /> Mukayev
+            <div className=" md:text-9xl">
+              Yernar <span className="block" /> Mukayev
             </div>
             <div className="mt-4 border border-white" />
             <div className="mt-6 flex animate-bounce gap-10">
@@ -53,7 +53,7 @@ export default function Home() {
               >
                 <LinkedInIcon
                   fontSize="large"
-                  // sx={{ "& :hover": { color: "yellow" } }}
+                  sx={{ "& :hover": { color: "yellow" } }}
                 />
               </Link>
               <Link
@@ -63,13 +63,13 @@ export default function Home() {
               >
                 <GitHubIcon
                   fontSize="large"
-                  // sx={{ "& :hover": { color: "yellow" } }}
+                  sx={{ "& :hover": { color: "yellow" } }}
                 />
               </Link>
               <Link href="mailto:ym2098@nyu.com">
                 <EmailIcon
                   fontSize="large"
-                  // sx={{ "& :hover": { color: "yellow" } }}
+                  sx={{ "& :hover": { color: "yellow" } }}
                 />
               </Link>
             </div>
