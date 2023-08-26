@@ -53,7 +53,7 @@ export default function Home() {
               >
                 <LinkedInIcon
                   fontSize="large"
-                  sx={{ "& :hover": { color: "yellow" } }}
+                  // sx={{ "& :hover": { color: "yellow" } }}
                 />
               </Link>
               <Link
@@ -63,13 +63,13 @@ export default function Home() {
               >
                 <GitHubIcon
                   fontSize="large"
-                  sx={{ "& :hover": { color: "yellow" } }}
+                  // sx={{ "& :hover": { color: "yellow" } }}
                 />
               </Link>
               <Link href="mailto:ym2098@nyu.com">
                 <EmailIcon
                   fontSize="large"
-                  sx={{ "& :hover": { color: "yellow" } }}
+                  // sx={{ "& :hover": { color: "yellow" } }}
                 />
               </Link>
             </div>
