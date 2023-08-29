@@ -87,7 +87,7 @@ export default function Home() {
           </div>
           <div
             ref={refSkillPage}
-            className={`flex flex-row flex-wrap gap-4 transition  duration-1000 md:gap-8 ${
+            className={`flex w-screen flex-row flex-wrap gap-4 transition duration-1000 md:gap-8 ${
               inSkillView
                 ? "opacity-1 blur-none "
                 : "translate-x-[100%] opacity-0	blur-sm 	"
