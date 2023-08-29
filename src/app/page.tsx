@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <div className="md: mt-32 text-xl">
       <div className="flex flex-col items-center justify-center gap-[300px]">
-        <div className="md: mt-16 flex justify-center gap-[300px]">
+        <div className="md: mt-16 flex justify-around gap-[100px]">
           <div className="mt-48 hidden md:flex">
-            <div className="relative hidden md:flex md:h-72 md:w-96">
+            <div className="relative ml-24 hidden md:flex md:h-72 md:w-96">
               <Image
                 width={500}
                 height={500}
@@ -87,57 +87,32 @@ export default function Home() {
           </div>
           <div
             ref={refSkillPage}
-            className={`flex flex-row gap-4 transition  duration-1000 md:gap-8 ${
+            className={`flex flex-row flex-wrap gap-4 transition  duration-1000 md:gap-8 ${
               inSkillView
                 ? "opacity-1 blur-none "
                 : "translate-x-[100%] opacity-0	blur-sm 	"
             }`}
           >
-            <Image
-              src="/logos/ts.png"
-              alt="Picture of the author"
-              width={30}
-              height={30}
-            />
-            <Image
-              src="/logos/cpp.png"
-              alt="Picture of the author"
-              width={30}
-              height={30}
-            />
+            <Image src="/logos/ts.png" alt="ts" width={30} height={30} />
+            <Image src="/logos/cpp.png" alt="cpp" width={30} height={30} />
             <Image
               src="/logos/python.png"
-              alt="Picture of the author"
+              alt="python"
               width={30}
               height={30}
             />
-            <Image
-              src="/logos/js.png"
-              alt="Picture of the author"
-              width={30}
-              height={30}
-            />
-            <Image
-              src="/logos/react.png"
-              alt="Picture of the author"
-              width={30}
-              height={30}
-            />
+            <Image src="/logos/js.png" alt="js" width={30} height={30} />
+            <Image src="/logos/react.png" alt="react" width={30} height={30} />
             <Image
               src="/logos/mysql.png"
               alt="Picture of the author"
               width={30}
               height={30}
             />
-            <Image
-              src="/logos/git.png"
-              alt="Picture of the author"
-              width={30}
-              height={30}
-            />
+            <Image src="/logos/git.png" alt="Git" width={30} height={30} />
             <Image
               src="/logos/tailwind.png"
-              alt="Picture of the author"
+              alt="tailwind"
               width={30}
               height={30}
             />
@@ -148,8 +123,8 @@ export default function Home() {
           <div id="projects" className="mb-16 md:text-3xl">
             <span className="text-orange-500">P</span>rojects
           </div>
-          <div className="border-medium-orange group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 md:h-48">
-            <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
+          <div className="group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 border-medium-orange md:h-48">
+            <div className="absolute inset-0 translate-y-full bg-medium-orange  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>Project 1</div>
@@ -164,8 +139,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="border-medium-orange group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 md:h-48">
-            <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
+          <div className="group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 border-medium-orange md:h-48">
+            <div className="absolute inset-0 translate-y-full bg-medium-orange  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>Project 2</div>
@@ -180,8 +155,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="border-medium-orange group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 md:h-48">
-            <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
+          <div className="group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 border-medium-orange md:h-48">
+            <div className="absolute inset-0 translate-y-full bg-medium-orange  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>Project 3</div>
@@ -196,8 +171,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="border-medium-orange group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 md:h-48">
-            <div className="bg-medium-orange absolute inset-0 translate-y-full  transition-transform duration-500 group-hover:translate-y-0"></div>
+          <div className="group relative h-56 w-screen overflow-hidden border-2 border-l-0 border-r-0 border-medium-orange md:h-48">
+            <div className="absolute inset-0 translate-y-full bg-medium-orange  transition-transform duration-500 group-hover:translate-y-0"></div>
             <div className="relative z-10 mx-20 mt-5 flex justify-between">
               <div className="flex flex-col justify-center gap-10">
                 <div>Project 4</div>
