@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${satoshiFont.variable}  bg-black font-satoshi text-sm text-white`}
+        className={`${satoshiFont.variable}  m-2 bg-black font-satoshi text-sm text-white`}
       >
         <Navbar />
         {children}
