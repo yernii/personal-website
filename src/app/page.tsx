@@ -81,13 +81,13 @@ export default function Home() {
             <span className="text-orange-500"> web programming.</span>
           </div>
         </div>
-        <div className=" flex flex-col flex-wrap items-center gap-4 md:mb-48 md:flex-row md:items-center md:gap-24">
+        <div className="hidden  flex-col flex-wrap items-center gap-4 md:mb-48 md:flex md:flex-row md:items-center md:gap-24">
           <div id="skills" className=" mb-4 md:mb-0 md:mr-16 md:text-3xl">
             <span className="text-orange-500">S</span>kills
           </div>
           <div
             ref={refSkillPage}
-            className={`mx-10 flex flex-row flex-wrap gap-4 md:mx-0 md:gap-8 md:transition md:duration-1000 ${
+            className={` flex flex-row flex-wrap gap-4 md:gap-8 md:transition md:duration-1000 ${
               inSkillView
                 ? "opacity-1 blur-none "
                 : "translate-x-[100%] opacity-0	blur-sm 	"
