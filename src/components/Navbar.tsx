@@ -1,6 +1,5 @@
 "use client"
 import { useState } from "react"
-import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight"
 import Link from "next/link"
 
 const Navbar = () => {
@@ -11,90 +10,29 @@ const Navbar = () => {
   }
 
   return (
-    <div className="m-8 flex items-center justify-between p-2 md:p-4 md:uppercase">
-      <div className="flex items-center">
-        {/* <img src="/logo.png" alt="Logo" className="h-8" /> */}
-        <div className="ml-4 text-lg text-orange-500">Yerni</div>
-      </div>
+    <div className="max-w-3xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="text-lg font-medium text-medium-orange">Yernar Mukayev</div>
 
-      <div className=" hidden flex-col md:absolute  md:left-96 md:top-6 md:flex md:gap-6">
-        <Link
-          href="#about"
-          className="relative before:absolute before:left-0 before:top-5 before:block before:h-[2px] 
-              before:w-full before:origin-top-left before:scale-x-0
-              before:bg-orange-600 before:transition before:duration-300
-              before:ease-in-out before:content-[''] hover:text-gray-500 before:hover:scale-x-50"
-        >
-          About
-        </Link>
-        <Link
-          href="#skills"
-          className="relative before:absolute before:left-0 before:top-5 before:block before:h-[2px] 
-              before:w-full before:origin-top-left before:scale-x-0
-              before:bg-orange-600 before:transition before:duration-300
-              before:ease-in-out before:content-[''] hover:text-gray-500 before:hover:scale-x-50"
-        >
-          Skills
-        </Link>
-        <Link
-          href="#experience"
-          className="relative before:absolute before:left-0 before:top-5 before:block before:h-[2px] 
-              before:w-full before:origin-top-left before:scale-x-0
-              before:bg-orange-600 before:transition before:duration-300
-              before:ease-in-out before:content-[''] hover:text-gray-500 before:hover:scale-x-50"
-        >
-          Experience
-        </Link>
-        <div>
-          <Link
-            href="#projects"
-            className="relative before:absolute before:left-0 before:top-5 before:block before:h-[2px] 
-              before:w-full before:origin-top-left before:scale-x-0
-              before:bg-orange-600 before:transition before:duration-300
-              before:ease-in-out before:content-[''] hover:text-gray-500 before:hover:scale-x-50"
-          >
-            Projects
-            <KeyboardArrowRightIcon className="mb-[3px] group-hover:rotate-180" />
-          </Link>
-        </div>
-      </div>
-      <div className=" hidden md:flex md:space-x-6">
+      <div className="hidden md:block">
         <a
           href="mailto:ym2098@nyu.com"
-          className="rounded-2xl border border-gray-400 p-2 px-4 uppercase transition duration-300  ease-in-out hover:border-none hover:bg-red-700 "
+          className="text-sm border border-gray-600 px-3 py-1 rounded hover:border-orange-500 transition-colors"
         >
           Contact
         </a>
       </div>
-      <div className="md:mr-16 md:hidden">
-        <button onClick={toggleMenu} className=" focus:outline-none">
-          <svg
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
+
+      <div className="md:hidden">
+        <button onClick={toggleMenu} className="focus:outline-none">
+          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
       </div>
 
       {isOpen && (
-        <div className="absolute left-72 top-16 rounded-lg  bg-gray-pearl  p-4 md:hidden">
-          <Link href="#about" className="my-2 block">
-            About
-          </Link>
-          <Link href="#skills" className="my-2 block">
-            Skills
-          </Link>
-          <Link href="#project" className="my-2 block">
-            Project
-          </Link>
+        <div className="absolute top-16 right-6 bg-gray-900 border border-gray-700 rounded p-4 md:hidden">
+          <a href="mailto:ym2098@nyu.com" className="block py-2">Contact</a>
         </div>
       )}
     </div>
